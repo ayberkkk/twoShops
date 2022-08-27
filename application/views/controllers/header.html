@@ -1,0 +1,72 @@
+<!-- Header-->
+<section class="header">
+    <header>
+        <nav class="col-12">
+            <div class="menu" id="ustMenu">
+                <ul class="d-flex justify-content-center border-bottom">
+                    <li class="list-group-item listİtem_top">
+                        <a href="hakkimizda.html">Hakkımızda</a>
+                    </li>
+                    <li class="list-group-item listİtem_top">
+                        <a href="#">Satış Sözleşmemiz</a>
+                    </li>
+                    <li class="list-group-item listİtem_top"> 
+                        <a href="#">Sıkça Sorulan Sorular</a>
+                    </li>
+                    <li class="list-group-item listİtem_top">
+                        <a href="/application/views/site/iletisim.html">İletişim</a>
+                    </li>
+                </ul>
+                <ul class="d-flex justify-content-around">
+                    <li class="list-group-item listİtem">
+                        <a href="/application/views/site/index.html">
+                            <img class="img-fluid w-100" src="/assets/img/logo.png">
+                        </a>
+                    </li>
+                    <li class="list-group-item listİtem">
+                        <!--Kategori-->
+                        <ul class="d-flex justify-content-center">
+                            <li class="list-group-item listİtem">
+                                <a href="\application\views\products.html">Laptop</a>
+                            </li>
+                            <li class="list-group-item listİtem">
+                                <a href="#">Telefon</a>
+                            </li>
+                            <li class="list-group-item listİtem">
+                                <a href="#">Aksesuar</a>
+                            </li>
+                        </ul>
+                        <!--Kategori End-->
+                    </li>
+                    <ul class="d-flex justify-content-end listİtem_end mt-2">
+                        <li class="list-group-item border-0">
+                            <a><i class="fa-solid fa-phone"></i></a>
+                        </li>
+                        <li class="list-group-item border-0 listİtem_top">
+                            <a href="/application/views/site/giris.html">Giriş Yap</a>
+                        </li>
+                        <li class="list-group-item border-0 listİtem_top">
+                            <a href="/application/views/site/giris.html">Üye Ol</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        
+        </nav>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <div></div>
+            <div></div>
+            <div></div>
+    </header>
+</section>
+    <!-- Header End-->
+    <script>
+        function myFunction() {
+  var x = document.getElementById("ustMenu");
+  if (x.className === "menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "menu";
+  }
+}
+    </script>
